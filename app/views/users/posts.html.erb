@@ -1,0 +1,7 @@
+
+<h2><%= @user.name %></h2>
+<ul>
+<% @posts.each do |p| %>
+	<li><%= p.context %></li>
+<% end %>
+</ul>
